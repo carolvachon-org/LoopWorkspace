@@ -297,6 +297,7 @@ jobs:
           profiles \
           basal_lock \
           live_activity \
+          bolus_display \
           negative_insulin \
           g7_scan
 
