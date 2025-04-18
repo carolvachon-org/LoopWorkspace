@@ -298,6 +298,7 @@ jobs:
           profiles \
           basal_lock \
           live_activity \
+          no_auth \
           negative_insulin 
 
           # the final customization listed above CANNOT have a continuation character
