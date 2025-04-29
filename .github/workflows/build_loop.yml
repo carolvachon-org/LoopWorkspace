@@ -303,7 +303,7 @@ jobs:
           no_auth \
           negative_insulin 
 
-         # Instructions for adding Dana pump to Loop 3.6.0
+          # Instructions for adding Dana pump to Loop 3.6.0
           echo "Downloading code to support Dana pump"
           git clone https://github.com/loopandlearn/DanaKit
           echo "Applying customization to add Dana support to Loop"
