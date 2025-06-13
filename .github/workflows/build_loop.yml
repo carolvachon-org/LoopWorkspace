@@ -286,6 +286,8 @@ jobs:
  
           # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
+         # The lines below add the customizations listed using the CustomizationSelect script
+          # The "\" is a continuation character 
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
@@ -300,8 +302,11 @@ jobs:
           profiles \
           basal_lock \
           live_activity \
-          no_auth \
-          negative_insulin 
+          negative_insulin \
+          remote_window
+
+          # the final customization listed above CANNOT have a continuation character
+          # more customizations can be pasted after this line
 
           # Instructions for adding Dana pump to Loop 3.6.0
           echo "Downloading code to support Dana pump"
