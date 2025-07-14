@@ -283,7 +283,23 @@ jobs:
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
-          export SCRIPT_BRANCH=prelim_ai_food && export PATCH_BRANCH=prelim_ai_food && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loopandlearn/lnl-scripts/$SCRIPT_BRANCH/CustomizationSelect.sh)"
+          /bin/bash -c "$(curl -fsSL \
+          https://raw.githubusercontent.com/loopandlearn/lnl-scripts/prelim_ai_food/CustomizationSelect.sh)" \
+          dexcom_upload_readings \
+          future_carbs_4h \
+          low_carb_limit \
+          override_sens \
+          now_line \
+          watch_title \
+          2hlollipop \
+          meal_days \
+          profiles \
+          basal_lock \
+          live_activity \
+          negative_insulin \
+          remote_window \
+          no_auth \
+          ai_food
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
