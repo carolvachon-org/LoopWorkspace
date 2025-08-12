@@ -306,10 +306,13 @@ jobs:
           live_activity \
           negative_insulin \
           remote_window \
-          no_auth
+          no_auth 
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
+          
+          export SCRIPT_BRANCH=prelim_ai_food && export PATCH_BRANCH=prelim_ai_food && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loopandlearn/lnl-scripts/$SCRIPT_BRANCH/CustomizationSelect.sh)" food_search
+          
           # Instructions for adding Dana pump to Loop 3.6.0
           echo "Downloading code to support Dana pump"
           git clone https://github.com/loopandlearn/DanaKit
