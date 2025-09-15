@@ -305,7 +305,9 @@ jobs:
           basal_lock \
           negative_insulin \
           remote_window \
-          no_auth 
+          no_auth \ 
+          live_activity \
+          remote_window
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
