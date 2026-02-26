@@ -229,7 +229,6 @@ jobs:
           profiles \
           basal_lock \
           negative_insulin \
-          remote_window \
           no_auth
 
           # the final customization listed above CANNOT have a continuation character
