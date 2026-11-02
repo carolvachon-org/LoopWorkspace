@@ -241,7 +241,6 @@ jobs:
           future_carbs_4h \
           low_carb_limit \
           override_sens \
-          now_line \
           2hlollipop \
           meal_days \
           profiles \
