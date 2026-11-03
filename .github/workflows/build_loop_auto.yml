@@ -241,14 +241,13 @@ jobs:
           future_carbs_4h \
           low_carb_limit \
           override_sens \
-          #2hlollipop \
-          #meal_days \
-          #profiles \
           no_auth
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
-
+          #2hlollipop \
+          #meal_days \
+          #profiles 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
