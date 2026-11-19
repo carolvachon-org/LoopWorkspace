@@ -215,7 +215,6 @@ jobs:
           future_carbs_4h \
           low_carb_limit \
           2hlollipop \
-          profiles \
           no_auth \
           xdrip_cgm
 
